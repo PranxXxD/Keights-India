@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Strane - Startup Agency Bootstrap 5 Template</title>
+    <title>KeightsDigitech</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,22 +13,37 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
 
     <!-- ::::::::::::::All CSS Files here :::::::::::::: -->
+    <!-- Font Api -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/icofont.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/jquery-ui.min.css">
-
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
     <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style1.css">
 
 </head>
 
 <body>
-
     <main class="main-wrapper">
         <!-- .....:::::: Start Header Section :::::.... -->
         <header class="header-section sticky-header d-none d-lg-block section-fluid-200">
@@ -38,7 +53,7 @@
                         <div class="col-auto">
                             <!-- Start Header Logo -->
                             <a href="index.html" class="header-logo">
-                                <img src="assets/images/logo/logo.png" alt="">
+                                <img src="../strane/assets/images2/KEIGHTS_DIGITECH-01.png" width="100" alt="">
                             </a>
                             <!-- End Header Logo -->
                         </div>
@@ -47,46 +62,24 @@
                             <ul class="header-nav">
                                 <li><a href="index.html">Home</a></li>
                                 <li class="has-dropdown">
-                                    <a href="service-list.html">Service</a>
+                                    <a href="#Services">Service</a>
                                     <ul class="submenu">
-                                        <li><a href="service-list.html">Services</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
+                                        <li><a href="../strane/Otherservice.html">Services</a></li>
                                     </ul>
                                 </li>
                                 <li class="has-dropdown">
-                                    <a href="portfolio-list.html">Project</a>
+                                    <a href="#projects">Work</a>
                                     <ul class="submenu">
-                                        <li><a href="portfolio-list.html">Project</a></li>
-                                        <li><a href="portfolio-details.html">Project Details</a></li>
+                                        <li><a href="#projects">Projects</a></li>
+                                        <li><a href="#Tech">Technologies</a></li>
                                     </ul>
                                 </li>
                                 <li class="has-dropdown">
-                                    <a href="index.html">Pages</a>
-                                    <ul class="submenu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                        <li><a href="404-error.html">404 Page</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="blog-list-left-sidebar.html">Blogs</a>
-                                    <ul class="submenu">
-                                        <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                        <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                                        <li><a href="blog-list-full-width.html">Blog List Full Width</a></li>
-                                        <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                                        <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
-                                        <li><a href="blog-details-full-width.html">Blog Details Full Width</a></li>
-                                    </ul>
+                                    <a href="#About">About Us</a>
                                 </li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                             <!-- End Header Menu -->
-                        </div>
-                        <div class="col-auto">
-                            <div class="header-btn-link">
-                                <a href="contact.html" class="btn btn-lg btn-default">Get Started</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -100,12 +93,14 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="mobile-logo">
-                            <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+                            <a href="index.html"><img src="../strane/assets/images2/KEIGHTS_DIGITECH-01.png" width="100"
+                                    alt=""></a>
                         </div>
                     </div>
                     <div class="col-auto">
                         <div class="mobile-action-link text-end">
-                            <a data-bs-toggle="offcanvas" href="#toggleMenu" role="button"><i class="icofont-navigation-menu"></i></a>
+                            <a data-bs-toggle="offcanvas" href="#toggleMenu" role="button"><i
+                                    class="icofont-navigation-menu"></i></a>
                         </div>
                     </div>
                 </div>
@@ -117,9 +112,11 @@
         <div class="offcanvas offcanvas-start" tabindex="-1" id="toggleMenu">
             <div class="offcanvas-header">
                 <!-- Start Header Logo -->
-                <a href="index.html" class="header-logo"><img src="assets/images/logo/logo.png" alt=""></a>
+                <a href="index.html" class="header-logo"><img src="../strane/assets/images2/KEIGHTS_DIGITECH-01.png"
+                        width="100"></a>
                 <!-- End Header Logo -->
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
                 <!-- Start Offcanvas Mobile Menu Wrapper -->
@@ -131,37 +128,21 @@
                             <ul>
                                 <li><a href="index.html"><span>Home</span></a></li>
                                 <li>
-                                    <a href="#"><span>Services</span></a>
+                                    <a href="#Services"><span>Services</span></a>
                                     <ul class="mobile-sub-menu">
-                                        <li><a href="service-list.html">Service List</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
+                                        <li><a href="../strane/Otherservice.html">Service List</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#"><span>Portfolio</span></a>
+                                    <a href="#projects"><span>Work</span></a>
                                     <ul class="mobile-sub-menu">
-                                        <li><a href="portfolio-list.html">Portfolio</a></li>
-                                        <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                        <li><a href="#projects">Projects</a></li>
+                                        <li><a href="#Tech">Technologies</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#"><span>Pages</span></a>
-                                    <ul class="mobile-sub-menu">
-                                        <li><a href="about.html"><span>About Us</span></a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                        <li><a href="404-error.html">404 Page</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#"><span>Blogs</span></a>
-                                    <ul class="mobile-sub-menu">
-                                        <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                        <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                                        <li><a href="blog-list-full-width.html">Blog List Full Width</a></li>
-                                        <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                                        <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
-                                        <li><a href="blog-details-full-width.html">Blog Details Full Width</a></li>
-                                    </ul>
+                                    <a href="#About"><span>About Us</span></a>
+
                                 </li>
                                 <li>
                                     <a href="contact.html"><span>Contact</span></a>
@@ -187,230 +168,282 @@
         </div>
         <!-- ...:::: End Offcanvas Mobile Menu Section:::... -->
 
-        <!-- Offcanvas Overlay -->
-        <div class="offcanvas-overlay"></div>
-        <!-- ...::: Start Hero Display Section :::... -->
         <div class="hero-display-section section-fluid-200">
             <div class="box-wrappr">
                 <div class="hero-wrapper">
                     <div class="hero-content">
-                        <span class="title-tag">In a few minutes</span>
-                        <h2 class="title">Start <span>& Manage</span> your best choice startup.</h2>
-                        <p>The business standard to since the printer took a gallery scrambled it to make
-                            specimen book.</p>
-                        <a href="service-list.html" class="btn btn-lg btn-default icon-right">All
+                        <!-- <span class="title-tag">In a few minutes</span> -->
+                        <h2 class="title text-center">Don't Know<span> how to build your website?</span>
+                            <h3 class="text-center">Keights Digitech is the place to start with!</h3>
+                        </h2>
+                        <p class="text-center text-dark">web design, web development, logo design, android app
+                            development and computer programming.</p>
+                        <a href="service-list.html" class="btn btn-lg btn-default icon-right"
+                            style="margin-left: 30%; margin-top: 3%;">All
                             Service’s <i class="icofont-double-right"></i></a>
                     </div>
                     <div class="hero-image">
-                        <img class="img-fluid" src="assets/images/hero/hero.png" alt="">
+                        <img class="img-fluid" src="../strane/assets/images2/Capture.PNG" alt="">
                     </div>
                 </div>
             </div>
         </div>
         <!-- ...::: End Hero Display Section :::... -->
+        <section id="clients" class="clients clients">
+            <div class="container">
 
-        <!-- ...::: Start Count Display Section :::... -->
-        <div class="count-display section-fluid-200 section-top-gap-150 section-inner-padding-100 section-inner-gray-gradient-bg-reverse">
-            <div class="box-wrapper">
-                <div class="count-wrapper pos-relative">
-                    <div class="container-fluid">
-                        <div class="row align-items-center justify-contents-between">
-                            <div class="col-xl-5 offset-xl-0 col-md-10 offset-md-1 col-sm-12">
-                                <div class="content text-lg-start text-center">
-                                    <h3 class="title">We’r <span>10,000</span> project
-                                        complete & <span>100%</span> client
-                                        satisfaction.</h3>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <ul class="counter-items counter-items-style-1">
-                                    <!-- Start Counter Single Items  -->
-                                    <li class="counter-single-item">
-                                        <div class="count-box">
-                                            <img src="assets/images/icons/count-shape-blue.png" alt="">
-                                            <p class="text"><span class="counter"  data-to="100" data-speed="1500">76</span>%</p>
-                                        </div>
-                                        <h6 class="title">Happy Client’s</h6>
-                                    </li>
-                                    <!-- End Counter Single Items  -->
-                                    <!-- Start Counter Single Items  -->
-                                    <li class="counter-single-item">
-                                        <div class="count-box">
-                                            <img src="assets/images/icons/count-shape-orange.png" alt="">
-                                            <p class="text"><span class="counter">88</span>%</p>
-                                        </div>
-                                        <h6 class="title">Positive Rating</h6>
-                                    </li>
-                                    <!-- End Counter Single Items  -->
-                                    <!-- Start Counter Single Items  -->
-                                    <li class="counter-single-item">
-                                        <div class="count-box">
-                                            <img src="assets/images/icons/count-shape-purple.png" alt="">
-                                            <p class="text"><span class="counter">92</span>%</p>
-                                        </div>
-                                        <h6 class="title">Projects Done</h6>
-                                    </li>
-                                    <!-- End Counter Single Items  -->
-                                </ul>
-                            </div>
-                        </div>
+                <div class="row">
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <img src="./assets/images2/kYAYRR370x370.png" class="img-fluid" alt="" data-aos="zoom-in">
                     </div>
-                    <div class="dotline-animate">
-                        <span class="blue"></span>
-                        <span class="orange"></span>
-                        <span class="blue"></span>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <img src="./assets/images2/NUMBZR 570x370.png" class="img-fluid" alt="" data-aos="zoom-in"
+                            data-aos-delay="100">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <img src="./assets/images2/AMORIZE370x370.png" class="img-fluid" alt="" data-aos="zoom-in"
+                            data-aos-delay="200">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <img src="./assets/images2/ADC 570x370.png" class="img-fluid" alt="" data-aos="zoom-in"
+                            data-aos-delay="300">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <img src="./assets/images2/sap570x370.png" class="img-fluid" alt="" data-aos="zoom-in"
+                            data-aos-delay="400">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <img src="./assets/images2/ico 370x370.png" class="img-fluid" alt="" data-aos="zoom-in"
+                            data-aos-delay="500">
                     </div>
                 </div>
             </div>
+        </section><!-- End Clients Section -->
+        <!-- start of about section -->
+        <section id="about" class="about">
+            <div class="container">
 
-        </div>
+                <div class="section-title" data-aos="fade-up">
+                    <h2>About Us</h2>
+                </div>
+
+                <div class="row content">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+                        <p>
+                            <b>Keights India Technologies</b> has always aimed at being a boutique, consultative web
+                            development & web designing firm.Company established in<b> Jan 2014.</b>
+                        </p>
+                        <ul>
+                            <li><i class="fa fa-check-circle-o"></i><b>In 2018, we registered as Keights Digitech
+                                    Studios PVT LTD</b></li>
+                            <li><i class="fa fa-check-circle-o"></i><b>We provide more services such as VFX, Color
+                                    Grading and Animation for Movies</b></li>
+                            <li><i class="fa fa-check-circle-o"></i><b>Our work has demonstrated significant
+                                    achievements in business growth and brand development.</b></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                        <p>
+                            We live and breathe web, which is the main area of our focus.
+                            In addition, our team members have many years of experience within the fields of <b> web
+                                design, web development, logo design, android app development and computer
+                                programming.</b>
+                            We're passionate about client's success and go the extra mile to ensure ultimate
+                            satisfaction.
+
+                            When working with <b> Keights India Technologies</b> , you're in good hands.
+                        </p>
+                        <a href="#" class="btn-learn-more">Learn More</a>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Us Section -->
         <!-- ...::: End Count Display Section :::... -->
+        <section id="counts" class="counts">
+            <div class="container">
 
-        <!-- ...::: Start Promo Display Section :::... -->
-        <div class="promo-display-section section-inner-padding-150 section-inner-bg-theme-color-gradeint-noise">
-            <div class="box-wrapper">
-                <div class="promo-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <!-- Start Promo Items -->
-                                <div class="promo-items">
-                                    <!-- Start Promo Single Items -->
-                                    <div class="promo-single-items">
-                                        <div class="icon">
-                                            <img src="assets/images/icons/promo/lightbulb.png" alt="">
-                                            <img src="assets/images/icons/promo/lightbulb-gradient.png" alt="">
+                <div class="row">
+                    <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start"
+                        data-aos="fade-right" data-aos-delay="150">
+                        <img src="./assets/images2/counts-img.svg" alt="" class="img-fluid">
+                    </div>
 
-                                            <div class="dot-icon-hover">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Innovative Ideas</h4>
-                                            <p>There are many variations popular sheet containing available have version
-                                                software like available.</p>
-                                        </div>
+                    <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left"
+                        data-aos-delay="300">
+                        <div class="content d-flex flex-column justify-content-center">
+                            <div class="row">
+                                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                                    <div class="count-box">
+                                        <i class="fa fa-smile-o my-3"></i>
+                                        <span data-purecounter-start="0" data-purecounter-end="65"
+                                            data-purecounter-duration="1" class="purecounter">65</span>
+                                        <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam
+                                            architecto ut.</p>
                                     </div>
-                                    <!-- End Promo Single Items -->
-                                    <!-- Start Promo Single Items -->
-                                    <div class="promo-single-items">
-                                        <div class="icon">
-                                            <img src="assets/images/icons/promo/cyber-security.png" alt="">
-                                            <img src="assets/images/icons/promo/cyber-security-gradient.png" alt="">
-
-                                            <div class="dot-icon-hover">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Secure & Private</h4>
-                                            <p>There are many variations popular sheet containing available have version
-                                                software like available.</p>
-                                        </div>
-                                    </div>
-                                    <!-- End Promo Single Items -->
-                                    <!-- Start Promo Single Items -->
-                                    <div class="promo-single-items">
-                                        <div class="icon">
-                                            <img src="assets/images/icons/promo/skills.png" alt="">
-                                            <img src="assets/images/icons/promo/skills-gradient.png" alt="">
-
-                                            <div class="dot-icon-hover">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Highly Skills</h4>
-                                            <p>There are many variations popular sheet containing available have version
-                                                software like available.</p>
-                                        </div>
-                                    </div>
-                                    <!-- End Promo Single Items -->
-                                    <!-- Start Promo Single Items -->
-                                    <div class="promo-single-items">
-                                        <div class="icon">
-                                            <img src="assets/images/icons/promo/conversation.png" alt="">
-                                            <img src="assets/images/icons/promo/conversation-gradient.png" alt="">
-
-                                            <div class="dot-icon-hover">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">24/7 Support</h4>
-                                            <p>There are many variations popular sheet containing available have version
-                                                software like available.</p>
-                                        </div>
-                                    </div>
-                                    <!-- End Promo Single Items -->
-                                    <!-- Start Promo Single Items -->
-                                    <div class="promo-single-items">
-                                        <div class="icon">
-                                            <img src="assets/images/icons/promo/budget.png" alt="">
-                                            <img src="assets/images/icons/promo/budget-gradient.png" alt="">
-
-                                            <div class="dot-icon-hover">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Affordable Cost</h4>
-                                            <p>There are many variations popular sheet containing available have version
-                                                software like available.</p>
-                                        </div>
-                                    </div>
-                                    <!-- End Promo Single Items -->
-                                    <!-- Start Promo Single Items -->
-                                    <div class="promo-single-items">
-                                        <div class="icon">
-                                            <img src="assets/images/icons/promo/puzzle.png" alt="">
-                                            <img src="assets/images/icons/promo/puzzle-gradient.png" alt="">
-
-                                            <div class="dot-icon-hover">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Right Solution</h4>
-                                            <p>There are many variations popular sheet containing available have version
-                                                software like available.</p>
-                                        </div>
-                                    </div>
-                                    <!-- End Promo Single Items -->
                                 </div>
-                                <!-- End Promo Items -->
+
+                                <div class="col-md-6 d-md-flex align-items-md-stretch ">
+                                    <div class="count-box">
+                                        <i class="fa fa-book my-3"></i>
+                                        <span data-purecounter-start="0" data-purecounter-end="85"
+                                            data-purecounter-duration="1" class="purecounter">85</span>
+                                        <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium
+                                            et quia dere tan</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                                    <div class="count-box">
+                                        <i class="fa fa-clock-o my-3"></i>
+                                        <span data-purecounter-start="0" data-purecounter-end="18"
+                                            data-purecounter-duration="1" class="purecounter">18</span>
+                                        <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam
+                                            ducimus aut voluptate non vel</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                                    <div class="count-box">
+                                        <i class="fa fa-trophy my-3"></i>
+                                        <span data-purecounter-start="0" data-purecounter-end="15"
+                                            data-purecounter-duration="1" class="purecounter">15</span>
+                                        <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et
+                                            nemo pad der</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- End .content-->
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Counts Section -->
+
+        <section id="services" class="services">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Services</h2>
+                    <p>AT <b>KEIGHTS INDIA TECHOLOGIES</b> we want to offer the widest and the most efficient services
+                        to your company.<br>
+                        JOIN US AND GET TO A NEW LEVEL!</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon"><i class="fa fa-newspaper-o"></i></div>
+                            <h4 class="title"><a href="">Web-Design</a></h4>
+                            <p class="description">When it comes to website design, creativity runs wild in Keights
+                                India's office</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <div class="icon"><i class="fa fa-mobile"></i></div>
+                            <h4 class="title"><a href="">App-Development</a></h4>
+                            <p class="description">A mobile application is a software application designed to run on
+                                smartphones, tablet computers and other mobile devices.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                            <div class="icon"><i class="fa fa-code"></i></div>
+                            <h4 class="title"><a href="">Web-Devlopment</a></h4>
+                            <p class="description">With some of the brightest minds at our disposal, your website can be
+                                customized from something as simple as a page of plain text to the most complex website
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                            <div class="icon"><i class="fa fa-shopping-cart"></i></div>
+                            <h4 class="title"><a href="">E-Commerce</a></h4>
+                            <p class="description">Designing winning ecommerce websites is a skill that we have mastered
+                                here at Keights India</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Services Section -->
+
+        <section id="more-services" class="more-services">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-stretch">
+                        <div class="card" style='background-image: url("./assets/images2/big-data.jpg");'
+                            data-aos="fade-up" data-aos-delay="100">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="">Big Data</a></h5>
+                                <p class="card-text">We leverage various Big Data & Analytics Technologies, Frameworks &
+                                    Platforms to provide comprehensive IT Services</p>
+                                <div class="read-more"><a href="#"><i class="fa fa-arrow-right"></i> Read More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                        <div class="card" style='background-image: url("./assets/images2/online-marketing.jpg");'
+                            data-aos="fade-up" data-aos-delay="200">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="">Digital Marketing</a></h5>
+                                <p class="card-text">Our Digital Marketing Services create awareness. Sales and
+                                    increased profits for every pound you spend.</p>
+                                <div class="read-more"><a href="#"><i class="fa fa-arrow-right"></i> Read More</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 d-flex align-items-stretch mt-4">
+                        <div class="card" style='background-image: url("./assets/images2/testing2.png");'
+                            data-aos="fade-up" data-aos-delay="100">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="">Testing</a></h5>
+                                <p class="card-text">With the increasing demand for interoperability, regulatory
+                                    compliance, and the end-user technology (mobile, multiple OS) compliance, testing of
+                                    healthcare applications today involves deep technology expertise, significant time
+                                    and resources, and costs.</p>
+                                <div class="read-more"><a href="#"><i class="fa fa-arrow-right"></i> Read More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-stretch mt-4">
+                        <div class="card" style='background-image: url("./assets/images2/seo.jpg");' data-aos="fade-up"
+                            data-aos-delay="200">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="">SEO</a></h5>
+                                <p class="card-text">Keights India is an IT company that does SEO or search engine
+                                    optimization for its clients</p>
+                                <div class="read-more"><a href="#"><i class="fa fa-arrow-right"></i> Read More</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-        </div>
-        <!-- ...::: End Promo Display Section :::... -->
+        </section><!-- End More Services Section -->
 
         <!-- ...::: Start Service Display Section :::... -->
-        <div class="service-dispaly-section section-inner-padding-150 service-dispaly-bg">
+        <div class="service-dispaly-section section-inner-padding-100 service-dispaly-bg">
             <div class="box-wrapper">
                 <div class="section-wrapper">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 offset-xl-3">
                                 <div class="section-content section-content-gap-80 text-center">
-                                    <h6 class="section-tag tag-orange">Our Services</h6>
-                                    <h3 class="section-title">Provide awesome service for our customer</h3>
-                                    <span class="icon-seperator"><img
-											src="assets/images/icons/section-seperator-shape.png" alt=""></span>
+                                    <h6 class="section-tag tag-blue" id="Tech">TECHNOLOGIES</h6>
                                 </div>
                             </div>
                         </div>
@@ -430,114 +463,82 @@
                                             <!-- Start Service Single Items -->
                                             <div class="service-single-item service-single-item-style-1 swiper-slide">
                                                 <div class="icon">
-                                                    <img src="assets/images/icons/service/service-1.png" alt="">
-                                                    <img src="assets/images/icons/service/service-1-hover.png" alt="">
+                                                    <img class="card-img-top" src="../strane/assets/images2/AI.png"
+                                                        alt="">
                                                 </div>
-                                                <div class="content">
-                                                    <h5 class="title"><a href="service-details.html">Web Development</a>
+                                                <div class="content card-body">
+                                                    <h5 class="title card-title text-center"><a
+                                                            href="service-details.html">ARTIFICIAL INTELLIGENCE</a>
                                                     </h5>
-                                                    <p>There are many variations of passages available have versions
-                                                        suffered alteration.</p>
+                                                    <p class=" text-center">Get latest list of artificial intelligence
+                                                        projects for your studies and research at Keights.</p>
                                                     <a class="text-btn" href="service-details.html">View Details
                                                         <span class="arrow-icon">
-															<img src="assets/images/icons/right-arrow-blue.png" alt="">
-															<img src="assets/images/icons/right-arrow-white.png" alt="">
-														</span></a>
+                                                            <img src="assets/images/icons/right-arrow-blue.png" alt="">
+                                                            <img src="assets/images/icons/right-arrow-white.png" alt="">
+                                                        </span></a>
                                                 </div>
                                             </div>
                                             <!-- End Service Single Items -->
                                             <!-- Start Service Single Items -->
                                             <div class="service-single-item service-single-item-style-1 swiper-slide">
                                                 <div class="icon">
-                                                    <img src="assets/images/icons/service/service-2.png" alt="">
-                                                    <img src="assets/images/icons/service/service-2-hover.png" alt="">
+                                                    <img class="card-img-top" src="../strane/assets/images2/cloud.png"
+                                                        alt="">
                                                 </div>
-                                                <div class="content">
-                                                    <h5 class="title"><a href="service-details.html">Market Research</a>
+                                                <div class="content card-body">
+                                                    <h5 class="title card-title text-center"><a
+                                                            href="service-details.html">CLOUD</a>
                                                     </h5>
-                                                    <p>There are many variations of passages available have versions
-                                                        suffered alteration.</p>
+                                                    <p class=" text-center">Keights India brings you the widest variety
+                                                        of cloud computing based projects for engineering students,
+                                                        researchers and engineers.</p>
                                                     <a class="text-btn" href="service-details.html">View Details
                                                         <span class="arrow-icon">
-															<img src="assets/images/icons/right-arrow-blue.png" alt="">
-															<img src="assets/images/icons/right-arrow-white.png" alt="">
-														</span></a>
+                                                            <img src="assets/images/icons/right-arrow-blue.png" alt="">
+                                                            <img src="assets/images/icons/right-arrow-white.png" alt="">
+                                                        </span></a>
                                                 </div>
                                             </div>
                                             <!-- End Service Single Items -->
                                             <!-- Start Service Single Items -->
                                             <div class="service-single-item service-single-item-style-1 swiper-slide">
                                                 <div class="icon">
-                                                    <img src="assets/images/icons/service/service-1.png" alt="">
-                                                    <img src="assets/images/icons/service/service-1-hover.png" alt="">
+                                                    <img class="card-img-top" src="../strane/assets/images2/IOT.png"
+                                                        alt="">
                                                 </div>
-                                                <div class="content">
-                                                    <h5 class="title"><a href="service-details.html">Creative
-                                                            Solutions</a></h5>
-                                                    <p>There are many variations of passages available have versions
-                                                        suffered alteration.</p>
+                                                <div class="content card-body">
+                                                    <h5 class="title card-title text-center"><a
+                                                            href="service-details.html">INTERNET OF THINGS</a></h5>
+                                                    <p class="text-center ">Blockchain for Internet of Things,
+                                                        Leveraging blockchain's distributive properties to create..</p>
                                                     <a class="text-btn" href="service-details.html">View Details
                                                         <span class="arrow-icon">
-															<img src="assets/images/icons/right-arrow-blue.png" alt="">
-															<img src="assets/images/icons/right-arrow-white.png" alt="">
-														</span></a>
+                                                            <img src="assets/images/icons/right-arrow-blue.png" alt="">
+                                                            <img src="assets/images/icons/right-arrow-white.png" alt="">
+                                                        </span></a>
                                                 </div>
                                             </div>
                                             <!-- End Service Single Items -->
                                             <!-- Start Service Single Items -->
                                             <div class="service-single-item service-single-item-style-1 swiper-slide">
                                                 <div class="icon">
-                                                    <img src="assets/images/icons/service/service-1.png" alt="">
-                                                    <img src="assets/images/icons/service/service-1-hover.png" alt="">
+                                                    <img class="card-img-top" src="../strane/assets/images2/CS.png"
+                                                        alt="">
+
                                                 </div>
-                                                <div class="content">
-                                                    <h5 class="title"><a href="service-details.html">Web Development</a>
+                                                <div class="content card-body">
+                                                    <h5 class="title card-title text-center"><a
+                                                            href="service-details.html">CYBER SECURITY</a>
                                                     </h5>
-                                                    <p>There are many variations of passages available have versions
-                                                        suffered alteration.</p>
+                                                    <p class=" text-center">We provide innovative information security
+                                                        projects for students, researchers and engineers.Our systems are
+                                                        designed to help researchers..</p>
                                                     <a class="text-btn" href="service-details.html">View Details
                                                         <span class="arrow-icon">
-															<img src="assets/images/icons/right-arrow-blue.png" alt="">
-															<img src="assets/images/icons/right-arrow-white.png" alt="">
-														</span></a>
-                                                </div>
-                                            </div>
-                                            <!-- End Service Single Items -->
-                                            <!-- Start Service Single Items -->
-                                            <div class="service-single-item service-single-item-style-1 swiper-slide">
-                                                <div class="icon">
-                                                    <img src="assets/images/icons/service/service-2.png" alt="">
-                                                    <img src="assets/images/icons/service/service-2-hover.png" alt="">
-                                                </div>
-                                                <div class="content">
-                                                    <h5 class="title"><a href="service-details.html">Market Research</a>
-                                                    </h5>
-                                                    <p>There are many variations of passages available have versions
-                                                        suffered alteration.</p>
-                                                    <a class="text-btn" href="service-details.html">View Details
-                                                        <span class="arrow-icon">
-															<img src="assets/images/icons/right-arrow-blue.png" alt="">
-															<img src="assets/images/icons/right-arrow-white.png" alt="">
-														</span></a>
-                                                </div>
-                                            </div>
-                                            <!-- End Service Single Items -->
-                                            <!-- Start Service Single Items -->
-                                            <div class="service-single-item service-single-item-style-1 swiper-slide">
-                                                <div class="icon">
-                                                    <img src="assets/images/icons/service/service-1.png" alt="">
-                                                    <img src="assets/images/icons/service/service-1-hover.png" alt="">
-                                                </div>
-                                                <div class="content">
-                                                    <h5 class="title"><a href="service-details.html">Creative
-                                                            Solutions</a></h5>
-                                                    <p>There are many variations of passages available have versions
-                                                        suffered alteration.</p>
-                                                    <a class="text-btn" href="service-details.html">View Details
-                                                        <span class="arrow-icon">
-															<img src="assets/images/icons/right-arrow-blue.png" alt="">
-															<img src="assets/images/icons/right-arrow-white.png" alt="">
-														</span></a>
+                                                            <img src="assets/images/icons/right-arrow-blue.png" alt="">
+                                                            <img src="assets/images/icons/right-arrow-white.png" alt="">
+                                                        </span></a>
                                                 </div>
                                             </div>
                                             <!-- End Service Single Items -->
@@ -545,14 +546,13 @@
                                     </div>
                                     <!-- Navigation buttons -->
                                     <div class="default-slider-buttons">
-                                        <div class="slider-button button-prev"><i class="icofont-long-arrow-left"></i></div>
-                                        <div class="slider-button button-next"><i class="icofont-long-arrow-right"></i></div>
+                                        <div class="slider-button button-prev"><i class="icofont-long-arrow-left"></i>
+                                        </div>
+                                        <div class="slider-button button-next"><i class="icofont-long-arrow-right"></i>
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- End Service Slider -->
-                                <div class="d-flex justify-content-center">
-                                    <a href="service-list.html" class="btn btn-lg btn-default-outline btn-section-bottom">Other’s Service</a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -561,87 +561,24 @@
         </div>
         <!-- ...::: End Service Display Section :::... -->
 
-        <!-- ...::: Start Content Display Section :::... -->
-        <div class="content-display-section section-top-gap-150">
-            <div class="box-wrapper custom-box-wrapper pos-relative">
-                <div class="content-inner-img content-inner-img-left">
-                    <img class="img-fluid" src="assets/images/section-image/section-image-1.png" alt="">
-                </div>
-                <div class="section-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 pos-relative">
-                                <div class="custom-section-content custom-section-content-right">
-                                    <div class="section-content section-content-gap-50">
-                                        <h6 class="section-tag tag-blue">Why Choose Us</h6>
-                                        <h3 class="section-title">Increase business profit with strane agency.</h3>
-                                    </div>
-                                    <p>There are many variations passages available
-                                        sheets but majority have versions have years suffereds
-                                        alteration some form humour.</p>
-
-                                    <ul class="content-lists">
-                                        <li><i class="icofont-check"></i> Secure & private</li>
-                                        <li><i class="icofont-check"></i> Right Solution</li>
-                                        <li><i class="icofont-check"></i> Highly Skills</li>
-                                        <li><i class="icofont-check"></i> Client’s Support</li>
-                                    </ul>
-
-                                    <a href="contact.html" class="btn btn-lg btn-default icon-right">Get Started <i
-											class="icofont-double-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ...::: End Content Display Section :::... -->
-
-        <!-- ...::: Start Content Display Section :::... -->
-        <div class="content-display-section  section-top-gap-150 section-fluid-200">
-            <div class="box-wrapper custom-box-wrapper pos-relative">
-                <div class="content-inner-img content-inner-img-right">
-                    <img class="img-fluid" src="assets/images/section-image/section-image-2.png" alt="">
-                </div>
-                <div class="section-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 pos-relative">
-                                <div class="custom-section-content custom-section-content-left">
-                                    <div class="section-content section-content-gap-50 ">
-                                        <h6 class="section-tag tag-orange">Client’s Support</h6>
-                                        <h3 class="section-title">You can get 100% support from our help desk.</h3>
-                                    </div>
-                                    <p>There are many variations passages available
-                                        sheets but majority have versions have year suffered
-                                        alteration some form humour.</p>
-                                    <p>There are many variations passages available
-                                        sheets but majority have versions have year suffered</p>
-
-                                    <a href="contact.html" class="btn btn-lg btn-default icon-right">Get Started <i
-											class="icofont-double-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ...::: End Content Display Section :::... -->
-
         <!-- ...::: Start Project Display Section :::... -->
-        <div class="project-display-section section-inner-padding-150 section-top-gap-150 project-dispaly-bg">
+        <div class="project-display-section section-inner-padding-80 section-top-gap-50 project-dispaly-bg">
             <div class="box-wrapper">
                 <div class="section-wrapper">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 offset-xl-3">
                                 <div class="section-content section-content-gap-80 text-center">
-                                    <h6 class="section-tag tag-orange">Complete Work</h6>
-                                    <h3 class="section-title">Complete work for client latest work here</h3>
+                                    <h3 class="text-center text-dark" id="projects">Work</h3>
+                                    <P class="text-center text-dark">
+                                        Our web design and web development portfolio.
+                                        We have a diverse portfolio of clients and each one presents a unique challenge
+                                        that we truly relish. Each of our clients get a very unique web design service
+                                        that perfectly matches their requirements. Each pixel is carefully thought
+                                        through and aligned with our clients' business objectives.
+                                    </P>
                                     <span class="icon-seperator"><img
-											src="assets/images/icons/section-seperator-shape.png" alt=""></span>
+                                            src="assets/images/icons/section-seperator-shape.png" alt=""></span>
                                 </div>
                             </div>
                         </div>
@@ -656,14 +593,18 @@
                                         <!-- Start Project Single Item -->
                                         <div class="col-xl-6 col-md-6 mb-25">
                                             <a href="portfolio-details.html" class="project-single-item">
-                                                <div class="image img-responsive"><img src="assets/images/projects/project-wide-1.jpg" alt=""></div>
+                                                <div class="image img-responsive"><img
+                                                        src="../strane/assets/images2/ADC 570x370.png" alt=""></div>
                                                 <div class="content">
                                                     <div class="inner">
                                                         <div class="text">
-                                                            <h4 class="title">Brand Identity</h4>
-                                                            <span class="catagory">Brand, Product</span>
+                                                            <h4 class="title">AD CONCEPT</h4>
+                                                            <span class="catagory">Web Design - Web Development -
+                                                                E-Commerce - Responsive - User Experience -
+                                                                Portal</span>
                                                         </div>
-                                                        <div class="icon"><img class="img-fluid" src="assets/images/icons/right-arrow-white.png" alt="">
+                                                        <div class="icon"><img class="img-fluid"
+                                                                src="assets/images/icons/right-arrow-white.png" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -673,14 +614,18 @@
                                         <!-- Start Project Single Item -->
                                         <div class="col-xl-6 col-md-6 mb-25">
                                             <a href="portfolio-details.html" class="project-single-item">
-                                                <div class="image img-responsive"><img src="assets/images/projects/project-wide-2.jpg" alt=""></div>
+                                                <div class="image img-responsive"><img
+                                                        src="../strane/assets/images2/NUMBZR 570x370.png" alt=""></div>
                                                 <div class="content">
                                                     <div class="inner">
                                                         <div class="text">
-                                                            <h4 class="title">Brand Identity</h4>
-                                                            <span class="catagory">Brand, Product</span>
+                                                            <h4 class="title">NUMBER BAZAAR</h4>
+                                                            <span class="catagory">Web Design - Web Development -
+                                                                E-Commerce - Responsive - User Experience -
+                                                                Portal</span>
                                                         </div>
-                                                        <div class="icon"><img class="img-fluid" src="assets/images/icons/right-arrow-white.png" alt="">
+                                                        <div class="icon"><img class="img-fluid"
+                                                                src="assets/images/icons/right-arrow-white.png" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -690,14 +635,18 @@
                                         <!-- Start Project Single Item -->
                                         <div class="col-xl-4 col-md-6 mb-25">
                                             <a href="portfolio-details.html" class="project-single-item">
-                                                <div class="image img-responsive"><img src="assets/images/projects/project-square-1.jpg" alt=""></div>
+                                                <div class="image img-responsive"><img
+                                                        src="../strane/assets/images2/kYAYRR370x370.png" alt=""></div>
                                                 <div class="content">
                                                     <div class="inner">
                                                         <div class="text">
-                                                            <h4 class="title">Brand Identity</h4>
-                                                            <span class="catagory">Brand, Product</span>
+                                                            <h4 class="title">KRYARR</h4>
+                                                            <span class="catagory">Web Design - Web Development -
+                                                                E-Commerce - Responsive - User Experience - Portal -
+                                                                Multi Lingual</span>
                                                         </div>
-                                                        <div class="icon"><img class="img-fluid" src="assets/images/icons/right-arrow-white.png" alt="">
+                                                        <div class="icon"><img class="img-fluid"
+                                                                src="assets/images/icons/right-arrow-white.png" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -707,14 +656,17 @@
                                         <!-- Start Project Single Item -->
                                         <div class="col-xl-4 col-md-6 mb-25">
                                             <a href="portfolio-details.html" class="project-single-item">
-                                                <div class="image img-responsive"><img src="assets/images/projects/project-square-2.jpg" alt=""></div>
+                                                <div class="image img-responsive"><img
+                                                        src="../strane/assets/images2/ico 370x370.png" alt=""></div>
                                                 <div class="content">
                                                     <div class="inner">
                                                         <div class="text">
-                                                            <h4 class="title">Brand Identity</h4>
-                                                            <span class="catagory">Brand, Product</span>
+                                                            <h4 class="title">ICO</h4>
+                                                            <span class="catagory">Web Design - Web Development -
+                                                                Responsive - User Experience - Lead Generation</span>
                                                         </div>
-                                                        <div class="icon"><img class="img-fluid" src="assets/images/icons/right-arrow-white.png" alt="">
+                                                        <div class="icon"><img class="img-fluid"
+                                                                src="assets/images/icons/right-arrow-white.png" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -724,14 +676,18 @@
                                         <!-- Start Project Single Item -->
                                         <div class="col-xl-4 col-md-6 mb-25">
                                             <a href="portfolio-details.html" class="project-single-item">
-                                                <div class="image img-responsive"><img src="assets/images/projects/project-square-3.jpg" alt=""></div>
+                                                <div class="image img-responsive"><img
+                                                        src="../strane/assets/images2/icon 3 370x370.png" alt=""></div>
                                                 <div class="content">
                                                     <div class="inner">
                                                         <div class="text">
-                                                            <h4 class="title">Brand Identity</h4>
-                                                            <span class="catagory">Brand, Product</span>
+                                                            <h4 class="title">SCHOOL CRM</h4>
+                                                            <span class="catagory">Web Design - Web Development -
+                                                                E-Commerce - Responsive - User Experience - Portal -
+                                                                CRM</span>
                                                         </div>
-                                                        <div class="icon"><img class="img-fluid" src="assets/images/icons/right-arrow-white.png" alt="">
+                                                        <div class="icon"><img class="img-fluid"
+                                                                src="assets/images/icons/right-arrow-white.png" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -740,7 +696,8 @@
                                         <!-- End Project Single Item -->
                                     </div>
                                     <div class="d-flex justify-content-center">
-                                        <a href="portfolio-list.html" class="btn btn-lg btn-default btn-section-bottom">Other’s
+                                        <a href="portfolio-list.html"
+                                            class="btn btn-lg btn-default btn-section-bottom">Other’s
                                             Project</a>
                                     </div>
                                 </div>
@@ -752,382 +709,303 @@
         </div>
         <!-- ...::: End Project Display Section :::... -->
 
-        <!-- ...::: Start Company Logo Display Section :::... -->
-        <div class="company-logo-display-section section-fluid-135 company-logo-border">
-            <div class="box-wrapper">
-                <div class="company-logo-wrapper">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12">
-                                <!-- Start Company Logo Slider -->
-                                <div class="company-logo-slider">
-                                    <!-- Slider main container -->
-                                    <div class="swiper-container">
-                                        <!-- Additional required wrapper -->
-                                        <div class="swiper-wrapper">
-                                            <!-- Slides -->
-                                            <!-- Start Company Logo Single Item -->
-                                            <div class="company-logo-single-item swiper-slide">
-                                                <a href="" class="image"><img src="assets/images/company-logo/company-logo-1.png" alt=""></a>
-                                            </div>
-                                            <!-- End Company Logo Single Item -->
-                                            <!-- Start Company Logo Single Item -->
-                                            <div class="company-logo-single-item swiper-slide">
-                                                <a href="" class="image"><img src="assets/images/company-logo/company-logo-2.png" alt=""></a>
-                                            </div>
-                                            <!-- End Company Logo Single Item -->
-                                            <!-- Start Company Logo Single Item -->
-                                            <div class="company-logo-single-item swiper-slide">
-                                                <a href="" class="image"><img src="assets/images/company-logo/company-logo-3.png" alt=""></a>
-                                            </div>
-                                            <!-- End Company Logo Single Item -->
-                                            <!-- Start Company Logo Single Item -->
-                                            <div class="company-logo-single-item swiper-slide">
-                                                <a href="" class="image"><img src="assets/images/company-logo/company-logo-4.png" alt=""></a>
-                                            </div>
-                                            <!-- End Company Logo Single Item -->
-                                            <!-- Start Company Logo Single Item -->
-                                            <div class="company-logo-single-item swiper-slide">
-                                                <a href="" class="image"><img src="assets/images/company-logo/company-logo-5.png" alt=""></a>
-                                            </div>
-                                            <!-- End Company Logo Single Item -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Company Logo Slider -->
-                            </div>
-                        </div>
-                    </div>
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="testimonials section-bg">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Testimonials</h2>
+                    <p>What client Saying!</p>
                 </div>
+
+                <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <img src="./assets/images2/female-296989_1280.png" class="testimonial-img" alt="">
+                                    <h3>Alexa</h3>
+                                    <h4>Ceo &amp; Founder</h4>
+                                    <p>
+                                        <i class="fa fa-quote-left"></i>
+                                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
+                                        suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.
+                                        Maecen aliquam, risus at semper.
+                                        <i class="fa fa-quote-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <img src="./assets/images2/user-33638_1280.png" class="testimonial-img" alt="">
+                                    <h3>John</h3>
+                                    <h4>Designer</h4>
+                                    <p>
+                                        <i class="fa fa-quote-left"></i>
+                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum
+                                        quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat
+                                        irure amet legam anim culpa.
+                                        <i class="fa fa-quote-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <img src="./assets/images2/female-296989_1280.png" class="testimonial-img" alt="">
+                                    <h3>Emilly Wills</h3>
+                                    <h4>Store Owner</h4>
+                                    <p>
+                                        <i class="fa fa-quote-left"></i>
+                                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
+                                        veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis
+                                        sint minim.
+                                        <i class="fa fa-quote-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <img src="./assets/images2/user-33638_1280.png" class="testimonial-img" alt="">
+                                    <h3>jordi</h3>
+                                    <h4>Freelancer</h4>
+                                    <p>
+                                        <i class="fa fa-quote-left"></i>
+                                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
+                                        fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore
+                                        quem dolore labore illum veniam.
+                                        <i class="fa fa-quote-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <img src="./assets/images2/female-296989_1280.png" class="testimonial-img" alt="">
+                                    <h3>Natasha</h3>
+                                    <h4>Entrepreneur</h4>
+                                    <p>
+                                        <i class="fa fa-quote-left"></i>
+                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor
+                                        noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam
+                                        esse veniam culpa fore nisi cillum quid.
+                                        <i class="fa fa-quote-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
             </div>
-        </div>
-        <!-- ...::: End Company Logo Display Section :::... -->
+        </section><!-- End Testimonials Section -->
 
-        <!-- ...::: Start Testimonial Display Section :::... -->
-        <div class="testimonial-display-section section-top-gap-150">
-            <div class="box-wrapper">
-                <div class="section-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-8 offset-xl-2">
-                                <div class="section-content section-content-gap-80 text-center">
-                                    <h6 class="section-tag tag-blue">Client Feedback</h6>
-                                    <h3 class="section-title">This is some of strane honorable
-                                        customer feedback.</h3>
-                                    <span class="icon-seperator"><img
-											src="assets/images/icons/section-seperator-shape.png" alt=""></span>
+        <section id="team" class="team section-bg">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Team</h2>
+                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up" data-aos-delay="100">
+                            <div class="member-img">
+                                <img src="./assets/images2/user-33638_1280.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
                                 </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Walter White</h4>
+                                <span>Chief Executive Officer</span>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="testimonial-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <!-- Start Testimonial Slider - Content -->
-                                <div class="testimonial-content-slider">
-                                    <div class="swiper-container">
-                                        <div class="swiper-wrapper">
-                                            <!-- Start Testimonial Single Content Item-->
-                                            <div class="testimonial-single-content-item swiper-slide">
-                                                <p>There are many variations of passages of available
-                                                    majority have suffered alteration in some form by injected humour
-                                                    and randomised words which don't look evening believable
-                                                    are going to use passage.</p>
-                                                <ul class="review-star">
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="blank"><i class="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <!-- End Testimonial Single Content Item -->
-                                            <!-- Start Testimonial Single Content Item-->
-                                            <div class="testimonial-single-content-item swiper-slide">
-                                                <p>There are many variations of passages of available
-                                                    majority have suffered alteration in some form by injected humour
-                                                    and randomised words which don't look evening believable
-                                                    are going to use passage.</p>
-                                                <ul class="review-star">
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="blank"><i class="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <!-- End Testimonial Single Content Item -->
-                                            <!-- Start Testimonial Single Content Item-->
-                                            <div class="testimonial-single-content-item swiper-slide">
-                                                <p>There are many variations of passages of available
-                                                    majority have suffered alteration in some form by injected humour
-                                                    and randomised words which don't look evening believable
-                                                    are going to use passage.</p>
-                                                <ul class="review-star">
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="fill"><i class="icofont-star"></i></li>
-                                                    <li class="blank"><i class="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <!-- End Testimonial Single Content Item -->
-                                        </div>
-                                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up" data-aos-delay="200">
+                            <div class="member-img">
+                                <img src="./assets/images2/female-296989_1280.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
                                 </div>
-                                <!-- End Testimonial Slider - Content -->
-                                <!-- Start Testimonial Slider - Thumbnail -->
-                                <div class="testimonial-thumb-slider">
-                                    <div class="swiper-container">
-                                        <div class="swiper-wrapper">
-                                            <!-- Start Testimonial Single Thumb Item -->
-                                            <div class="testimonilal-single-thumb-item swiper-slide">
-                                                <div class="image">
-                                                    <img src="assets/images/user/testimonial-user-1.jpg" alt="">
-                                                </div>
-                                                <div class="content">
-                                                    <h4 class="name">Melvina Bolton</h4>
-                                                    <p><span class="profession">Founder</span><span
-															class="company-name">Pixelz Studio</span></p>
-                                                </div>
-                                            </div>
-                                            <!-- End Testimonial Single Thumb Item-->
-                                            <!-- Start Testimonial Single Thumb Item -->
-                                            <div class="testimonilal-single-thumb-item swiper-slide">
-                                                <div class="image">
-                                                    <img src="assets/images/user/testimonial-user-2.jpg" alt="">
-                                                </div>
-                                                <div class="content">
-                                                    <h4 class="name">Melvina Bolton</h4>
-                                                    <p><span class="profession">Founder</span><span
-															class="company-name">Pixelz Studio</span></p>
-                                                </div>
-                                            </div>
-                                            <!-- End Testimonial Single Thumb Item-->
-                                            <!-- Start Testimonial Single Thumb Item -->
-                                            <div class="testimonilal-single-thumb-item swiper-slide">
-                                                <div class="image">
-                                                    <img src="assets/images/user/testimonial-user-3.jpg" alt="">
-                                                </div>
-                                                <div class="content">
-                                                    <h4 class="name">Melvina Bolton</h4>
-                                                    <p><span class="profession">Founder</span><span
-															class="company-name">Pixelz Studio</span></p>
-                                                </div>
-                                            </div>
-                                            <!-- End Testimonial Single Thumb Item-->
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ENd Testimonial Slider - Thumbnail -->
+                            </div>
+                            <div class="member-info">
+                                <h4>Sarah Jhonson</h4>
+                                <span>Product Manager</span>
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up" data-aos-delay="300">
+                            <div class="member-img">
+                                <img src="./assets/images2/user-33638_1280.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>William Anderson</h4>
+                                <span>CTO</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member" data-aos="fade-up" data-aos-delay="400">
+                            <div class="member-img">
+                                <img src="./assets/images2/female-296989_1280.png" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Amanda Jepson</h4>
+                                <span>Accountant</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
-            <!-- ...::: End Testimonial Display Section :::... -->
-        </div>
-        <!-- ...::: End Testimonial Display Section :::... -->
-
-        <!-- ...::: Start Blog Feed Section :::... -->
-        <div class="blog-feed-display-section section-inner-padding-150 section-top-gap-150 blog-feed-dispaly-bg">
-            <div class="box-wrapper">
-                <div class="section-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-7">
-                                <div class="section-content section-content-gap-80">
-                                    <h6 class="section-tag tag-blue">Latest News</h6>
-                                    <h3 class="section-title">Check popular startup related
-                                        article from news feed.</h3>
-                                    <span class="icon-seperator"><img
-											src="assets/images/icons/section-seperator-shape.png" alt=""></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="blgo-feed-slider">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 pos-relative">
-                                <!-- Start Blog Feed Slider -->
-                                <div class="blog-feed-slider blog-feed-slider-style-1 default-slider">
-                                    <!-- Slider main container -->
-                                    <div class="swiper-container">
-                                        <!-- Additional required wrapper -->
-                                        <div class="swiper-wrapper">
-                                            <!-- Slides -->
-                                            <!-- Start Blog List Single Item -->
-                                            <div class="blog-list-single-item swiper-slide">
-                                                <a href="blog-details-full-width.html" class="image"><img src="assets/images/blog/blog-list/blog-list-single-item-img-1.jpg" alt=""></a>
-                                                <div class="content">
-                                                    <span class="author">By<a href="">Walter Houston</a></span>
-                                                    <h5 class="title"><a href="blog-details-full-width.html">With WooLentor's drag-and drop
-                                                            interface for creating...</a></h5>
-
-                                                    <div class="post-info">
-                                                        <span>03 April, 2021</span>
-                                                        <span>10 min read</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Blog List Single Item -->
-                                            <!-- Start Blog List Single Item -->
-                                            <div class="blog-list-single-item swiper-slide">
-                                                <a href="blog-details-full-width.html" class="image"><img src="assets/images/blog/blog-list/blog-list-single-item-img-2.jpg" alt=""></a>
-                                                <div class="content">
-                                                    <span class="author">By<a href="">Walter Houston</a></span>
-                                                    <h5 class="title"><a href="blog-details-full-width.html">Make your store stand out from
-                                                            the others by converting.</a></h5>
-
-                                                    <div class="post-info">
-                                                        <span>03 April, 2021</span>
-                                                        <span>10 min read</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Blog List Single Item -->
-                                            <!-- Start Blog List Single Item -->
-                                            <div class="blog-list-single-item swiper-slide">
-                                                <a href="blog-details-full-width.html" class="image"><img src="assets/images/blog/blog-list/blog-list-single-item-img-3.jpg" alt=""></a>
-                                                <div class="content">
-                                                    <span class="author">By<a href="">Walter Houston</a></span>
-                                                    <h5 class="title"><a href="blog-details-full-width.html">All of these amazing features come at an affordable price.</a></h5>
-
-                                                    <div class="post-info">
-                                                        <span>03 April, 2021</span>
-                                                        <span>10 min read</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Blog List Single Item -->
-                                        </div>
-                                    </div>
-                                    <!-- Navigation buttons -->
-                                    <div class="default-slider-buttons">
-                                        <div class="slider-button button-prev"><i class="icofont-long-arrow-left"></i></div>
-                                        <div class="slider-button button-next"><i class="icofont-long-arrow-right"></i></div>
-                                    </div>
-                                </div>
-                                <!-- End Blog Feed Slider -->
-                                <!-- Start Subscribe Banner -->
-                                <div class="subscribe-banner subscribe-banner-overflow section-top-gap-150 section-fluid-100">
-                                    <div class="row justify-content-between align-items-center">
-                                        <div class="col-lg-8 col-xl-8">
-                                            <div class="content">
-                                                <h6 class="big-text">Stay connect with us, get daily & weekly update.</h6>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto">
-                                            <a href="contact.html" class="btn btn-lg btn-default icon-right">Subscribe Now <i class="icofont-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Subscribe Banner -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ...::: End Blog Feed Section :::... -->
+        </section><!-- End Team Section -->
 
         <!-- ...::: Start Footer Section :::... -->
-        <footer class="footer-section section-top-gap-0">
-            <div class="box-wrapper">
-                <!-- Start Footer Top -->
-                <div class="footer-top footer-top-style-1">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="footer-top-box">
-                                    <div class="footer-top-left">
-                                        <!-- Start Footer Single Widget - About -->
-                                        <div class="footer-single-widget footer-about">
-                                            <a href="index.html" class="footer-logo">
-                                                <img src="assets/images/logo/logo-dark.png" alt="">
-                                            </a>
-                                            <p>There are many variation popular sheet
-                                                containing available have version software
-                                                like available.</p>
-                                            <address>Your address goes here.</address>
-                                        </div>
-                                        <!-- End Footer Single Widget - About-->
-                                    </div>
-                                    <div class="footer-top-right">
-                                        <!-- Start Footer Single Widget - Footer Menu -->
-                                        <div class="footer-single-widget footer-menu">
-                                            <h5 class="footer-title">Company</h5>
-                                            <ul class="footer-nav">
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="contact.html">Contact Us</a></li>
-                                                <li><a href="">Print Ads</a></li>
-                                                <li><a href="faq.html">FAQ’s</a></li>
-                                                <li><a href="">Careers</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- End Footer Single Widget - Footer Menu-->
-                                        <!-- Start Footer Single Widget - Footer Menu -->
-                                        <div class="footer-single-widget footer-menu">
-                                            <h5 class="footer-title">Quick Links</h5>
-                                            <ul class="footer-nav">
-                                                <li><a href="">Privacy Policy</a></li>
-                                                <li><a href="">Discussion</a></li>
-                                                <li><a href="">Terms & Conditions</a></li>
-                                                <li><a href=""> Customer Support</a></li>
-                                                <li><a href="">Course FAQ’s</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- End Footer Single Widget - Footer Menu-->
-                                        <!-- Start Footer Single Widget - Footer Menu -->
-                                        <div class="footer-single-widget footer-menu">
-                                            <h5 class="footer-title">Product</h5>
-                                            <ul class="footer-nav">
-                                                <li><a href="">Presentation</a></li>
-                                                <li><a href="">E-Books</a></li>
-                                                <li><a href="">Management Tool</a></li>
-                                                <li><a href="">Dashboard</a></li>
-                                                <li><a href="">Event Organizer</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- End Footer Single Widget - Footer Menu-->
-                                    </div>
-                                </div>
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Contact Us</h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="contact-about">
+                            <h3>Keights Digitech</h3>
+                            <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus.
+                                Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc
+                                congue.</p>
+                            <div class="social-links">
+                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- End Footer Top -->
 
-                <!-- Start Footer Bottom -->
-                <div class="footer-bottom">
-                    <div class="container">
-                        <div class="row justify-content-center justify-content-md-between align-items-center">
-                            <div class="col-auto">
-                                <p class="copytight-text">&copy; 2021 Strane. Made with <i class="icofont-heart"></i> by <a href="https://hasthemes.com/" target="_blank" rel="noopener noreferrer">HasThemes</a></p>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+                        <div class="info">
+                            <div>
+                                <i class="fa fa-map-pin"></i>
+                                <p>Shop No. 5, Sandeep Apartment Plot No. A-197
+                                    Near Balaji Mandir Sector 20
+                                    Nerul(West) Navi Mumbai-400706
+                                </p>
                             </div>
 
-                            <div class="col-auto">
-                                <ul class="footer-bottom-link">
-                                    <li> <a href="">Terms of Service </a></li>
-                                    <li><a href="">Privacy Policy</a></li>
-                                    <li><a href="">Sitemap</a></li>
-                                </ul>
+                            <div>
+                                <i class="fa fa-envelope"></i>
+                                <p>info@keights.in</p>
                             </div>
+
+                            <div>
+                                <i class="fa fa-phone"></i>
+                                <p>+1 5589 55488 55s</p>
+                            </div>
+
                         </div>
                     </div>
+
+                    <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                    required></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+                    </div>
+
                 </div>
-                <!-- End Footer Bottom -->
+
             </div>
-        </footer>
-        <!-- ...::: End Footer Section :::... -->
+        </section><!-- End Contact Section -->
 
-        <!-- material-scrolltop button -->
-        <button class="material-scrolltop" type="button"></button>
-    </main>
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 text-lg-left text-center">
+                    <div class="copyright">
+                        Copyright &copy; 2021 Design and developed by <strong>KeightsIndia</strong>. All Rights Reserved
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+                        <a href="#intro" class="scrollto">Home</a>
+                        <a href="#about" class="scrollto">About</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="fa fa-arrow-circle-o-up"></i></a>
 
     <!-- ::::::::::::::All JS Files here :::::::::::::: -->
     <!-- Global Vendor -->
@@ -1148,6 +1026,9 @@
 
     <!--Main JS (Common Activation Codes)-->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/main1.js"></script>
+
+
 
 </body>
 
